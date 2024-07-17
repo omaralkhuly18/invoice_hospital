@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فاتورة حجز كشف</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="rtl">
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="invoice p-3 mb-3">
+                    <div class="row">
+                        <div class="col-4">
+                            <h2 class="text-primary">فاتورة حجز كشف</h2>
+                        </div>
+
+                        <div class="col-4 text-center">
+                            <img src="health_medicine_medical.jpg" class="image_invoice" alt="">
+                        </div>
+
+                        <div class="col-3 text-start">
+                            <div><strong> التخصص :جراحه وتجميل </strong></div>
+                            <div><strong> نوع الكشف :عياده </strong></div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-5 text-end">
+                            <div><strong> :بيانات المريض </strong></div>
+                            <div id="patient-name">اسم المريض</div>
+                            <div id="patient-address">عنوان المريض</div>
+                            <div id="patient-phone">رقم الهاتف</div>
+                            <div id="patient-email">البريد الإلكتروني</div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div><strong> :بيانات الدكتور </strong></div>
+                            <div id="doctor-name">اسم الدكتور</div>
+                            <div id="doctor-specialty">التخصص</div>
+                            <div id="doctor-phone">رقم الهاتف</div>
+                            <div id="doctor-email">البريد الإلكتروني</div>
+                        </div>
+                        <div class="col-6 text-end">
+                            <h4>اسم المستشفى أو العيادة</h4>
+                            <div>عنوان المستشفى أو العيادة</div>
+                            <div>رقم الهاتف</div>
+                            <div>البريد الإلكتروني</div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div><strong>رقم الفاتورة:</strong> INV123456</div>
+                        </div>
+                        <div class="col-6 text-end">
+                            <div><strong>التاريخ:</strong> 01.07.2024</div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>التفاصيل</th>
+                                        <th>السعر</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>موعد الكشف</td>
+                                        <td id="appointment-date">01.07.2024 - 10:00 صباحاً</td>
+                                    </tr>
+                                    <tr>
+                                        <td>سعر الكشف</td>
+                                        <td id="appointment-price">$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td> التخصص </td>
+                                        <td id="appointment-price"> جراحه وتجميل </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div><strong>طريقة الدفع:</strong> نقداً أو بواسطة البطاقة</div>
+                        </div>
+                        <div class="col-6 text-end">
+                            <div><strong>الإجمالي الكلي:</strong> $100</div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="row mt-4">
+                        <div class="col-12 text-center">
+                            <div><strong>التوقيع:</strong></div>
+                            <div>مدير الحسابات</div>
+                        </div>
+                    </div> -->
+
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div><strong>الشروط والأحكام:</strong></div>
+                            <div>
+                                1- تأكيد الحجز: يتطلب حجز موعد للكشف الطبي تأكيداً من قبل العيادة أو المستشفى عبر الهاتف أو
+                                البريد الإلكتروني.
+                                <br>
+                            2-المعلومات الشخصية: يجب على المريض تقديم معلومات شخصية صحيحة وكاملة أثناء عملية الحجز.
+                            <br>
+                            3-تغيير أو إلغاء الحجز: يمكن تغيير أو إلغاء الحجز بشرط إبلاغ العيادة أو المستشفى قبل 24 ساعة على الأقل من الموعد المحدد.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
