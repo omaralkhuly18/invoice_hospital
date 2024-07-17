@@ -36,3 +36,17 @@ body {
 .ltr {
     direction: ltr;
 }
+
+@media screen and (max-width: 770px) and (min-width: 230px){
+    .logo_text{
+        display: none;
+    }
+
+    .logo_image{
+        width: 45% !important;
+    }
+
+    .data_text{
+        width: 50% !important;
+    }
+}
