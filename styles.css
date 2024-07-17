@@ -20,10 +20,14 @@ body {
     text-align: end;
 }
 
-.image_invoice{
-    width: 65%;
-    height: 85%;
+/* .logo_image{
+    height: 130px;
 }
+
+.image_invoice{
+    width: 60%;
+    height: 100%;
+} */
 
 .table-bordered th, .table-bordered td {
     border: 1px solid #dee2e6;
@@ -38,26 +42,27 @@ body {
 }
 
 @media screen and (max-width: 2652px) and (min-width: 771px){
-    .logo_text_2{
+    .section_responsive{
         display: none;
     }
 }
 
 @media screen and (max-width: 770px) and (min-width: 230px){
-    .logo_text{
+    .logo_text,
+    .data_text{
         display: none;
     }
 
     .logo_image{
-        width: 45% !important;
+        width: 100% !important;
     }
 
     .data_text{
         width: 50% !important;
     }
 
-    .logo_text_2{
-        display: block;
+    .section_responsive{
+        display: flex;
         border-top: 2px solid;
     }
 }
